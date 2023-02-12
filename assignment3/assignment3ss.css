@@ -1,0 +1,32 @@
+.specialp {
+    color: crimson;
+}
+.sh1 {
+    color: antiquewhite;
+    background-color:palevioletred;
+}
+.sh2 {
+    color: maroon;
+    background-color: peachpuff;
+}
+.sh3 { 
+    color: midnightblue;
+    background-color: lightsteelblue;
+}
+a{
+    color: #cc0000;
+    text-decoration: underline;
+}
+a:visited {
+    color:darkolivegreen;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+#div1 {
+    background-color: beige;
+}
+.span1 {
+    color: mediumvioletred;
+}
