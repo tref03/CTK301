@@ -30,10 +30,14 @@ p a{
     text-decoration: none;
     font-weight:bold ;
 }
+p a:visited{
+    color: blue;
+}
 p a:hover{
     text-decoration: underline;
     color: red;
 }
+
 h1{
     background-color: aliceblue;
     padding-top: 20px;
