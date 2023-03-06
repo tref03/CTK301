@@ -1,0 +1,104 @@
+body{
+    background-color: antiquewhite;
+    background-image: url(a62.png);
+}
+#wrapper{
+    width: 960px;
+    background-color: white;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 3px solid black;
+}
+
+h1{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    grid-column: span 6;
+    margin: 10px ;
+}
+h2{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    grid-column: span 6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    grid-column: span 1;
+    margin: 10px;
+ 
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom:10px ;
+    margin-right: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+nav li a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+nav li a:hover{
+    background-color: darkred;
+}
+
+main {
+    grid-column: span 5;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+main img{
+    width:500px;
+    float: left;
+    margin-right:10px ;
+    margin-bottom: 1px;
+    padding: 8px;
+    border: 3px solid black;
+}
+
+.specialp{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+}
+p a{
+    color: red;
+    text-decoration: none;
+    font-weight:bold ;
+}
+p a:visited{
+    color: red;
+}
+p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+  footer {
+    background-color: red;
+    border: 1px solid black;
+    grid-column: span 6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: aliceblue;
+  }
+  
