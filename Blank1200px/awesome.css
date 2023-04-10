@@ -1,0 +1,76 @@
+body {
+  background-color: #FFEDF2;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
+
+header{
+  grid-column: span 12;
+  background-color: lightpink;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 30px;
+  color:#CE4C6E
+}
+nav{
+  grid-column: span 1;
+}
+
+nav ul {
+  list-style-type:none;
+margin: 0px;
+padding:0px;
+}
+
+nav li{
+width: 100px;
+margin: 0px;
+background-color: #CE4C6E;
+
+}
+
+nav li a{
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  color: lightpink;
+  text-align: center;
+}
+
+nav li a:hover{
+  background-color: deeppink;
+  text-decoration: none;
+}
+
+Main{
+  grid-column: span 12;
+}
+
+.gallery {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.galimg {
+  width: 100%;
+}
+figure{
+  margin: 0px;
+  padding:0px;
+  height: 600px;
+}
