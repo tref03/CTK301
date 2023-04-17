@@ -25,10 +25,25 @@ header{
   margin: 0px;
   text-align: center;
   font-size: 30px;
-  color:#CE4C6E
+  color:#CE4C6E;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
+
+.tsbox {
+  margin: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  color: rgb(230, 84, 132);
+  text-shadow: 2px 2px 2px #000000; /* x, y, blur, color */
+}
+
+
 nav{
   grid-column: span 1;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
 }
 
 nav ul {
@@ -57,6 +72,13 @@ nav li a:hover{
   text-decoration: none;
 }
 
+.roundbox{
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #a12d48;
+  background-color: #ed88ab;
+  border-radius: 10px;
+}
 Main{
   grid-column: span 12;
 }
@@ -73,4 +95,33 @@ figure{
   margin: 0px;
   padding:0px;
   height: 600px;
+}
+
+footer{
+  grid-column: span 12;
+  margin: 0px;
+  background-color: lightpink;
+  padding: 10px;
+  
+}
+footer p{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: #CE4C6E;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer a{
+  color: #CE4C6E;
+  font-size: 30px;
+}
+footer a:visited{
+  color: #CE4C6E;
+}
+footer a:hover{
+  color: rgb(255, 150, 166);
 }
