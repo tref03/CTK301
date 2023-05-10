@@ -19,16 +19,16 @@
 <body>
 	<div id="wrapper">
 	<header>
-		<h1 class="tsbox">Nicole Trefilek</h1>
-	</header>
+		<h1 class="tsbox">Digital Art</h1>
+	
 	<nav>
 		<ul>
 			<li><a href="main.html">Main</a></li>
-			<li><a href="about.html">About</a></li>
+			
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
-
+</header>
 
 	<main>
 		<div id="fdiv">
@@ -60,6 +60,15 @@
     const container = document.getElementById("myCarousel");
     const options = { infinite: false };
     new Carousel(container, options);
+
+	function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+		  x.style.display = "none";
+		} else {
+		  x.style.display = "block";
+		}
+	  }
 	</script>
 </body>
 </html>

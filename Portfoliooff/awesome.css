@@ -10,6 +10,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  zoom: 60%;
 }
 
 /* style for dummy columns, delete and replace with your own CSS */
@@ -19,23 +20,35 @@ body {
 }
 
 header{
+  background-color: lightpink;
+  grid-column: span 12;
+  text-align:left;
+}
+
+h1{
   grid-column: span 12;
   background-color: lightpink;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
   color:#CE4C6E;
   font-family: 'Dosis', sans-serif;
   font-family: 'Oswald', sans-serif;
+ display:inline-block;
+
 }
 
 
+
 nav{
-  grid-column: span 1;
+  grid-column: span 12;
   font-family: 'Dosis', sans-serif;
   font-family: 'Oswald', sans-serif;
   font-weight: bolder;
+  display: inline-block;
+  float: right;
+  
 }
 
 nav ul {
@@ -49,6 +62,7 @@ width: 100px;
 margin: 0px;
 background-color: #CE4C6E;
 
+
 }
 
 nav li a{
@@ -57,6 +71,7 @@ nav li a{
   padding: 20px;
   color: lightpink;
   text-align: center;
+  
 }
 
 nav li a:hover{
@@ -74,6 +89,7 @@ Main{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  
 }
 .galimg {
   width: 100%;
@@ -130,4 +146,65 @@ footer a:visited{
 }
 footer a:hover{
   color: rgb(255, 150, 166);
+}
+
+.conmain{
+  text-align: center;
+  width: 100%;
+}
+
+.image{
+position: relative;
+width: 100%;
+}
+
+.image2{
+  position: relative;
+width: 100%;
+}
+
+.image3{
+position: relative;
+width: 100%;
+}
+
+.digart{
+  display: block;
+  width: 100%;
+}
+
+.tradart{
+  display: block;
+  width: 100%;
+}
+
+.sketches{
+  display: block;
+  width: 100%;
+}
+
+.imgoverlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0,0, 0.6);
+  color:#FFEDF2;
+  font-family:'Dosis', sans-serif;
+  font-family:'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.imgoverlay:hover{
+  opacity: 1;
+}
+
+
+.imgtitle{
+  font-size: 2em;
+  font-weight: bold;
 }

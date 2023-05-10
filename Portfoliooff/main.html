@@ -16,30 +16,43 @@
 <body>
 	<div id="wrapper">
 	<header>
-		<h1 class="tsbox">Nicole Trefilek</h1>
-	</header>
+		<h1 class="border1">Nicole Trefilek</h1>
+	
 	<nav>
 		<ul>
 			<li><a href="main.html">Main</a></li>
-			<li><a href="about.html">About</a></li>
+			
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>
+</header>
 
 
 	<main>
 		<div class="gallery">
-			<figure class="galitem gallery__item--1">
-				<a href="digitalart.html"><img src="digitlaartthumb.png" class="galimg" alt="Image 1"></a>
+			<figure class="galitem1">
+				<div class="image"><a href="digitalart.html">
+				<img class="digart" src="digitlaartthumb.png" class="galimg" alt="Image 1">
+					<div class="imgoverlay">
+						<div class="imgtitle">Digital Art</div>
+				</div></a>
+					</div>
 			  </figure>
-			  <figure class="galitem gallery__item--1">
-				<a href="work.html"><img src="traditionalthumb.png" class="galimg" alt="Image 1"></a>
+			  <figure class="galitem1">
+				<div class="image2"><a href="traditional.html">
+				<img class="tradart" src="traditionalthumb.png" class="galimg" alt="Image 1">
+					<div class="imgoverlay">
+						<div class="imgtitle">Traditional Art</div>
+				</div></a>
+					</div>
 			  </figure>
-			  <figure class="galitem gallery__item--1">
-				<a href="work.html"><img src="sketchthumb.png" class="galimg" alt="Image 1"></a>
-			  </figure>
-			  <figure>
-			  <a href="work.html"><img src="cpi.jpg" class="galimg" alt="Image 1"></a>
+			  <figure class="galitem1">
+				<div class="image3"><a href="sketch.html">
+				<img class="sketches" src="sketchthumb.png" class="galimg" alt="Image 1">
+					<div class="imgoverlay">
+						<div class="imgtitle">Sketches</div>
+				</div></a>
+					</div>
 			  </figure>
 		</div>
 
@@ -48,16 +61,22 @@
 	<footer>
 		<p>
 		Check out my socials!
-		<a href="https://instagram.com" target="_blank"  class="bi bi-youtube"></a>
-		<a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
-		<a href="https://www.tiktok.com" target="_blank" class="bi bi-tiktok"></a>
+		<a href="https://www.youtube.com/channel/UCG79jaKOkWaFIdDJau18dvA" target="_blank"  class="bi bi-youtube"></a>
+		<a href="https://www.instagram.com/trefdrawz/" target="_blank" class="bi bi-instagram"></a>
 		
 	</p>
 	</footer>
 </body>
-	</div>
+</div>
 	<script>
-		
+	 function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+		  x.style.display = "none";
+		} else {
+		  x.style.display = "block";
+		}
+	  }	
 	</script>
 </body>
 </html>
